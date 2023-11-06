@@ -1,5 +1,5 @@
 # WebServer & Client
-Simple WebServer with an Web-UI
+Simple WebServer with an Web-UI and a WPF application which serves as a client
 
 
 
