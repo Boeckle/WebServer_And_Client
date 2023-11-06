@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "ECPJDV9jUF9ABMaOatrQnvcXQFcYrnPejBjWRTF5fM4=",
+  "Source": "WebServer",
+  "BasePath": "_content/WebServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebServer\\wwwroot",
+      "Source": "WebServer",
+      "ContentRoot": "C:\\Users\\Nico.Bock\\Documents\\Persönlich\\Aufgaben\\tmp\\WebServer\\wwwroot\\",
+      "BasePath": "_content/WebServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Nico.Bock\\Documents\\Persönlich\\Aufgaben\\tmp\\WebServer\\wwwroot\\index.html",
+      "SourceId": "WebServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nico.Bock\\Documents\\Persönlich\\Aufgaben\\tmp\\WebServer\\wwwroot\\",
+      "BasePath": "_content/WebServer",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Nico.Bock\\Documents\\Persönlich\\Aufgaben\\tmp\\WebServer\\wwwroot\\styles.css",
+      "SourceId": "WebServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nico.Bock\\Documents\\Persönlich\\Aufgaben\\tmp\\WebServer\\wwwroot\\",
+      "BasePath": "_content/WebServer",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}

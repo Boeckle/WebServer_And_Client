@@ -1,0 +1,45 @@
+﻿h1 {
+    background-color: #0078d7;
+    color: white;
+    padding: 20px;
+}
+
+
+#messageList {
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: pre-wrap;
+}
+
+
+#txtInput {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btnSend {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    #btnSend:hover {
+        background-color: #0056a5;
+    }
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}

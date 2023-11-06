@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Webserver</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Webserver</h1>
+    <label for="txtInput">Input:</label>
+    <input type="text" id="txtInput" placeholder="Your message...">
+    <button id="btnSend">Send</button>
+    <label for="messageList">Output:</label>
+    <div id="messageList"></div>
+
+    <script>
+        function updateMessageList() {
+            fetch('/ReceivedMessages')
+                .then(response => response.text())
+                .then(messages => {
+                    document.getElementById('messageList').innerHTML = messages;
+                });
+        }
+
+        setInterval(updateMessageList, 1000);
+
+        document.getElementById("btnSend").addEventListener("click", function () {
+            var txtInput = document.getElementById("txtInput");
+            var message = txtInput.value;
+            if (message) {
+                sendMessageToClients(message);
+            }
+        });
+
+        function sendMessageToClients(message) {
+            fetch('/SendMessage', {
+                method: 'POST',
+                body: message
+            }).then(response => {
+                if (response.ok) {
+                    document.getElementById("txtInput").value = "";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
